@@ -128,8 +128,8 @@ function isPalindrome(n) {
 }
 
 function run1(){
-    let a = parseFloat(document.getElementById("a1").value);        
-    let b = parseFloat(document.getElementById("b1").value);
+    let a = parseFloat(document.getElementById("in1a").value);        
+    let b = parseFloat(document.getElementById("in1b").value);
     document.getElementById("out1").innerHTML = smaller(a, b);
 }
 
@@ -209,3 +209,4 @@ function run11() {
     }
     document.getElementById("out11").innerText = result;
 }
+
